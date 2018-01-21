@@ -1,0 +1,111 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #6397A8;
+}
+
+div.row h2{
+	color: #fff;
+}
+div.row h4{
+	color: #fff;
+}
+div.row h6{
+	color: #fff;
+}
+div.row p{
+	color: #fff;
+}
+form div.form-group label{
+	color: #fff;
+}
+/*div.alterar-dados{
+	background-color: #05324F;
+	width: 60%;
+	margin: 2% 20%;
+	padding: 20px 50px;
+}
+div.alterar-encontro{
+	background-color: #05324F;
+	width: 60%;
+	margin: 5% 20%;
+	padding: 20px 50px;
+}
+div.perfilInstrutor{
+	background-color: #05324F;
+	width: 60%;
+	margin: 5% 20%;
+	padding: 20px 50px;
+}*/
+div.dados{
+	color: #fff;
+	padding-left: 80px;
+	padding-top: 15px;
+}
+h2.nome-user{
+		padding-top: 35%;
+	}
+
+@media (max-width: 575px) {
+	h2.nome-user{
+		padding-top: 20px;
+	}
+	div.dados{
+		color: #fff;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	div.perfilInstrutor{
+		background-color: #05324F;
+		width: 100%;
+	}
+		div.dados{
+		color: #fff;
+		padding-left: 5px;
+		padding-top: 3px;
+	}
+}
+
+@media (max-width: 991px) { 
+	div.perfilInstrutor{
+		background-color: #05324F;
+		width: 100%;
+		margin: 5% 10%;
+		padding: 20px 50px;
+	}
+	div.dados{
+		color: #fff;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 30px;
+	}
+	h2.nome-user{
+		padding-top: 15%;
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 1500px) {
+	div.alterar-dados{
+		background-color: #05324F;
+		width: 60%;
+		margin: 2% 20%;
+		padding: 20px 50px;
+	}
+	div.alterar-encontro{
+		background-color: #05324F;
+		width: 60%;
+		margin: 5% 20%;
+		padding: 20px 50px;
+	}
+	div.perfilInstrutor{
+		background-color: #05324F;
+		width: 60%;
+		margin: 5% 20%;
+		padding: 20px 50px;
+	}
+}
