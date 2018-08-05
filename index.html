@@ -1,129 +1,191 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-		<title>ConneKnow</title>
-		<link rel="shortcut icon" href="img/college-graduation.png">
-		<meta charset=utf-8>
-		<meta name="description" content="ConneKnow">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Alessandra Nastassja">
-		<!--Estilo css-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- Fontes do Google -->
-		<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-	</head>
-<body>	
-	<div class="mobile-display" >
-		<h2 class="site-title">
-			<a href="#">
-				<img src="img/ConneKnow.svg" alt="Açogano" style="width: 170px; height: 170px;">
-			</a>
-		</h2>
-	</div>
-	<header>
-		<div id="content">
-		<nav>
-			<a href="#" class="toggle-menu">&#9776;</a>
-			<ul class="nav-list nav-open" id="nav">
-				<li><a href="index.html">Início</a></li>
-				<li><a href="sobre.html">Sobre nós</a></li>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ConneKnow</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
 
-				<!--li class="has-logo"><a href="#">
-					<h2 class="site-title">
-						<img src="img/logonovo.png" alt="Açogano">
-					</h2>
-				</a></li-->
-				<li><a href="#">Login</a></li>
-				<li><a href="#">Registre-se</a></li>
-				<li><a href="contato.html">Contato</a></li>
-			</ul>
-		</nav>
-	</header>	
-	
-	<div id="topo">
-		<div class="logo-destaque">
-			<img src="img/Logo.svg" alt="Logo em destaque" class="logo" style="width: 350px; padding-left: 25px;">
-			<h1 class="sobre-content-terceiro">AQUI VOCÊ ESTUDA E SOCIALIZA<br> AO MESMO TEMPO </h1>
-		</div>
-	</div>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" alt="Logo da Conneknow" style="width: 30px;"></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="active"><a href="#">Início</a></li>
+        <li><a href="#">Quem somos</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
 
-	<main>
-	 <div class="section1">
-		<div class="content-principal">
-			<div class="container">
-				<div class="container-content">
-					<h2 class="sobre-content-principal" style="color:#fff;">Sobre nós</h2><br>
-					<p class="text-content-principal">
-						Conneknow é uma plataforma para troca de conhecimentos entre alunos da FATEC. Nela você pode ajudar com seu conhecimento e também ser ajudado.
-				</p>
-				</div>		
-			</div>
-		</div>
-     </div><!-- /.section1-->
-     <!-- div class="content-segundário">
-			<div class="container">
-				<h2 class="sobre-content-secundário">Vamos Começar</h2>
-				<p class="text-content-sedundário">Para começarmos, devemos seguir três passos</p><br>
-				<div class="container-passos"><br>
-					<div class="passo-um">
-						<a href="#dados-pessoais"><img src="img/one.svg" alt="passo um" class="passo-img"></a>
-							<h3>DADOS PESSOAS</h3>
-							<p>Basta se cadastrar</p>
-					</div><br>
-					<div class="passo-dois">
-							<a href="#dados-acesso"><img src="img/two.svg" alt="passo dois" class="passo-img"></a>
-							<h3>IDENTIFICAÇÃO</h3>
-							<p>Escolher a matéria que precisa de ajuda</p>
-					</div><br>
-					<div class="passo-três">
-							<a href="#conhecendo"><img src="img/three.svg" alt="passo três" class="passo-img"></a>
-							<h3>CONHECENDO MAIS</h3>
-							<p>E também escolher uma matéria para ajudar alguém</p>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-		</div></.content-segundário -->
-		<!--div class="section1">
-		<div class="content-principal">
-			<div class="container">
-				<div class="container-content">
-					<h2 class="sobre-content-principal" style="color:#fff;">Quem somos</h2><br>
-					<p class="text-content-principal">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet arcu eget dui faucibus, eu ornare lectus 
-					tincidunt. Mauris pellentesque metus vel justo tristique finibus. Praesent mattis odio nunc, sit amet mattis 
-					massa gravida et. Pellentesque convallis maximus sem eu convallis. Sed a luctus lacus. Nunc auctor nunc non 
-					elit scelerisque, et hendrerit lectus ullamcorper. Aliquam enim lectus, fermentum id placerat sit amet, cursus		
-				</p>
-				</div>		
-			</div>
-		</div>
-     </div>< /.section1-->
-	</main>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-		integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-		crossorigin="anonymous"></script>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Conneknow</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Plataforma para estudar e solicializar ao mesmo tempo</h5>
+        </div>
+        <div class="row center">
+          <a href="login.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Comece aqui!</a>
+        </div>
+        <br><br>
 
-	<script type="text/javascript">
-		$('[data-toggle="popover"]').popover({
-			placement : "bottom",
-			trigger : "hover",
-		});
-		$('[data-toggle="popover1"]').popover({
-			placement : "left",
-		});
-	</script>
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script  src="js/index.js"></script>
-</body>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background-1.jpg" alt="background, garota estudando" style="background-color: "></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><img src="img/login.png" alt="Imagem ilustrativa de um login"></h2>
+            <h5 class="center">Faça seu cadastro, caso não tenha login</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a blandit libero. Proin nulla dui, suscipit a nisl ut, rhoncus congue ex. Ut pulvinar ex non mauris lobortis blandit. Proin nec eleifend ante. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><img src="img/clicking.png" alt="Imagem ilustrativa em que escolhe a materia"></h2>
+            <h5 class="center">Escolha as matérias de sua preferência</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a blandit libero. Proin nulla dui, suscipit a nisl ut, rhoncus congue ex. Ut pulvinar ex non mauris lobortis blandit. Proin nec eleifend ante. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><img src="img/id-card.png" alt="Imagem ilustrativa que representa o perfil"></h2>
+            <h5 class="center">Veja o perfil do professor</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a blandit libero. Proin nulla dui, suscipit a nisl ut, rhoncus congue ex. Ut pulvinar ex non mauris lobortis blandit. Proin nec eleifend ante. </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a blandit libero.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background-4.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Receba nossas novidades</h4>
+          <p class="light">Envie seus dados abaixo para o ConneKnow. </p><br>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="Digite seu primeiro nome" id="first_name" type="text" class="validate">
+                  <label for="first_name">Nome</label>
+                </div>
+                <div class="input-field col s6">
+                  <input placeholder="Digite seu segundo nome" id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input placeholder="Digite seu seu e-mail" id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                 <i class="material-icons right">send</i>
+               </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a blandit libero.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background-2.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Quem somos</h5>
+          <p class="grey-text text-lighten-4">A ConneKnow é uma plataforma para troca de conhecimentos entre alunos da faculdade. Nela você pode ajudar alguém com seu conhecimento e também ser ajudado.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Páginas</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Início</a></li>
+            <li><a class="white-text" href="#!">Quem somos</a></li>
+            <li><a class="white-text" href="#!">Login</a></li>
+            <li><a class="white-text" href="#!">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Redes sociais</h5>
+          <ul>
+            <li><a class="white-text" href="#!"><img src="img/icon-facebook.png" alt=""></a></li>
+            <li><a class="white-text" href="#!"><img src="img/icon-instagram.png" alt=""> </a></li>
+            <li><a class="white-text" href="#!"><img src="img/icon-twitter.png" alt=""> </a></li>
+            <li><a class="white-text" href="#!"><img src="img/icon-linkedin.png" alt=""> </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Copyright © 2018 | Web designer <a class="brown-text text-lighten-3" href="http://alessandranastassja.com.br" target="_blank">Alessandra Nastassja</a> - Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
